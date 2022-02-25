@@ -215,6 +215,7 @@ where else do we need access to projects?
 <Steps>
 
 - add "server" script to our package.json that will run the json-server --watch command on port 4000
+  - `"server": "json-server --watch db.json --port=4000"`
 - rework App component to integrate fetched data
 
 </Steps>
@@ -283,7 +284,7 @@ where else do we need access to projects?
 <Layout>
 
 ## Diagram!
-![React Inverse Data Flow Diagram](https://res.cloudinary.com/dnocv6uwb/image/upload/v1643998564/react-inverse-data-flow-diagram_cqpyyh.png)
+![React Inverse Data Flow Diagram](https://res.cloudinary.com/dnocv6uwb/image/upload/v1645814361/react-inverse-data-flow-diagram_zpunjn.png)
 
 </Layout>
 
@@ -323,12 +324,10 @@ where else do we need access to projects?
 
 ## 🏋️‍♂️ Exercise 🏋️‍♂️
 
-Implement Inverse Data flow to fix a broken search feature
-
-[Open Codesandbox](https://codesandbox.io/s/inverse-data-flow-exercise-otvjp?file=/src/App.js) - instructions in `src/App.js`
+Implement Inverse Data flow to fix a broken search feature. [Open Codesandbox](https://codesandbox.io/s/inverse-data-flow-exercise-otvjp?file=/src/App.js) - instructions in `src/App.js`
 
 <iframe src="https://codesandbox.io/embed/inverse-data-flow-exercise-otvjp?fontsize=14&hidenavigation=1&theme=dark"
-  style={{"width":"100%", height:"500px"}}
+  style={{"width":"100%", height:"600px"}}
   title="Inverse Data Flow exercise"
   allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
